@@ -19,7 +19,7 @@
     "gatsby-remark-prismjs": "^5.0.0",
     "gatsby-source-filesystem": "^3.3.0",
     "gatsby-transformer-remark": "^4.0.0",
-    "is-url-superb": "^6.0.0",
+    "is-url-superb": "^5.0.0",
     "parse-markdown-links": "^1.0.4",
     "prismjs": "^1.23.0",
     "react": "^17.0.2",

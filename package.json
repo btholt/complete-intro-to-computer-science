@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-course-starter",
-  "description": "a gatsby seed project to get your education site started",
+  "name": "complete-intro-to-algorithms",
+  "description": "learn the basics of algorithms with Brian Holt",
   "version": "1.0.0",
-  "author": "Brian Holt <btholt+course-starter@gmail.com>",
+  "author": "Brian Holt <btholt+csv2@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "code-mirror-themes": "^1.0.0",

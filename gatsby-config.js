@@ -1,25 +1,27 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
-    description:
-      "This is the description that will show up when people share as well as on search engines",
+    title: "Complete Intro to Algorithms",
+    subtitle: "by Brian Holt",
+    description: "Come learn the basics to computer science with Brian Holt",
     keywords: [
-      "this is",
-      "a list of keywords and phrase",
-      "that search engines",
-      "will index your page for"
-    ]
+      "computer science",
+      "complete intro",
+      "sorts",
+      "algorithms",
+      "Brian Holt",
+      "javascript",
+      "node.js",
+    ],
   },
-  //pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/complete-intro-to-algorithms",
   plugins: [
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/lessons`,
-        name: "markdown-pages"
-      }
+        name: "markdown-pages",
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -34,11 +36,11 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: true,
-              sizeByPixelDensity: false
-            }
-          }
-        ]
-      }
-    }
-  ]
+              sizeByPixelDensity: false,
+            },
+          },
+        ],
+      },
+    },
+  ],
 };

@@ -15,6 +15,7 @@ module.exports = {
   },
   pathPrefix: "/complete-intro-to-algorithms",
   plugins: [
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,

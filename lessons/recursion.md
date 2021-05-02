@@ -1,8 +1,8 @@
 ---
 path: "/recursion"
 title: "Recursion"
-order: "2C"
-section: "Foundational Concepts"
+order: "4A"
+section: "Recursive Sorts"
 description: "Brian defines recursion as something that recurses. In this section Brian teaches what recursion is and some places you might use it."
 ---
 

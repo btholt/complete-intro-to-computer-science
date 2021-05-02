@@ -11,13 +11,15 @@ description: "Brian introduces to himself, the course, and what you can expect t
 - Algorithms
   - Basics
     - Big O
-    - Recursion
     - Trade offs
-  - Sort
+  - Iterative Sort
     - Bubble
     - Insertion
+  - Recursive Sorts
+    - Recursion
     - Merge
     - Quick
+  - Non-Comparison Sorts
     - Radix
   - Mazes
     - Path finding

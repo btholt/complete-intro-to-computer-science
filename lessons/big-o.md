@@ -2,7 +2,7 @@
 path: "/big-o"
 title: "Big O"
 order: "2A"
-section: "Foundational Concepts"
+section: "Algorithm Analysis"
 description: "Brian goes over how to measure how efficient an algorithm and the tools we have to measure it"
 ---
 

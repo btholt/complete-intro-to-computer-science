@@ -2,7 +2,7 @@
 path: "/spatial-complexity"
 title: "Spatial Complexity"
 order: "2B"
-section: "Foundational Concepts"
+section: "Algorithm Analysis"
 description: "Brian talks about Big O as it's applied to how much space something needs"
 ---
 
@@ -14,7 +14,7 @@ Let's say we have an algorithm that for every item in the array, it needs to cre
 
 ## Logrithmic
 
-What about another for every item in the array, it needed to create a diminishing amount of extra arrays. So for an array of length 10, it'd create 7 arrays. For an array of 100, it'd create 12 arrays. For an array of 1000, it'd created 20 arrays. This would be O(log n).
+What about another for every item in the array, it needed to create a diminishing amount of extra arrays. For example: for an array of length 10, it'd create 7 arrays. For an array of 100, it'd create 12 arrays. For an array of 1000, it'd created 20 arrays. This would be O(log n).
 
 ## Constant
 

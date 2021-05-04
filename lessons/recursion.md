@@ -92,16 +92,22 @@ The base case won't (probably) be the first thing in this exercise!
 
 Go ahead and give it a shot here:
 
-[Link to the nested array exercise][nested-arrays].
+[![Edit algorithms-exercises](https://codesandbox.io/static/img/play-codesandbox.svg)][nested-arrays]
 
-## Factorials
+We're going to work on [/specs/recursion/nested-arrays.test.js][nested-arrays-gh]. Go give that a shot.
+
+## Factorials Exercise
 
 One more exercise for you, just to really hammer home recursion. Have you ever heard of factorials? It's a mathematical function that looks like this: `5!`. A factorial is `n * (n-1)!`. So `5! = 5 * 4!`. It really ends up being `5 * 4 * 3 * 2 * 1`. `1! = 1`.
 
 Go ahead and give this a try. It's fairly similar to the previous fibonacci problem but a little different.
 
-[Link to the factorials exercise][factorials].
+[![Edit algorithms-exercises](https://codesandbox.io/static/img/play-codesandbox.svg)][factorials]
 
+We're going to work on [/specs/recursion/factorials.test.js][factorials-gh]. Go give that a shot.
+
+[nested-arrays-gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/recursion/nested-arrays.test.js
+[factorials-gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/recursion/factorials.test.js
 [fibonacci]: https://en.wikipedia.org/wiki/Fibonacci_number
 [nested-arrays]: https://codesandbox.io/s/upbeat-leftpad-8kdjr?file=/specs/recursion/nested-arrays.test.js
 [factorials]: https://codesandbox.io/s/upbeat-leftpad-8kdjr?file=/specs/recursion/recursion.test.js

@@ -69,4 +69,11 @@ What about the spatial complexity? In our case, we're operating on the array its
 
 Is this sorting algorithm **stable**? To be considered a stable sort, the sort must guarantee that if two things are _equal_ that that they stay in that same order. For example, if we have an array of users that looks like this: `[{state: "CO", name: "Sarah Drasner"}, {state: "CA", name: "Shirley Wu"}, {state: "CA", name: "Scott Moss"}]` and we're sorting by state, we'd have to guarantee that Shirley comes before Scott for the sort to be considered stable. Sometimes this is important to you, sometimes you don't care. So is bubble sort stable? Yes, it'll guarantee that equivalent items come back in the order they were in.
 
-## TODO exercise
+## Exercises
+
+[![Edit algorithms-exercises](https://codesandbox.io/static/img/play-codesandbox.svg)][sb]
+
+We're going to work on [/specs/bubble-sort/bubble-sort.test.js][gh]. Go give that a shot.
+
+[gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/bubble-sort/bubble-sort.test.js
+[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/bubble-sort/bubble-sort.test.js

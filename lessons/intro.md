@@ -21,9 +21,8 @@ description: "Brian introduces to himself, the course, and what you can expect t
     - Quick
   - Non-Comparison Sorts
     - Radix
-  - Mazes
-    - Path finding
-    - Generating
+  - Search
+    - Binary Search
 - Data Structures
   - Interfaces
     - Set
@@ -41,11 +40,14 @@ description: "Brian introduces to himself, the course, and what you can expect t
       - Post
       - In
   - Hash tables
+  - Graphs
+  - Mazes
+    - Path finding
+    - Generating
   - Heaps
     - Heap sort
-  - Bloom Filters
   - Tries
-  - Graphs
+  - Bloom Filters
   - Trade offs
     - Optimizing for insertion vs read vs space
     - Stability

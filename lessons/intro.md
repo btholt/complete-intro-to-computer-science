@@ -39,14 +39,14 @@ description: "Brian introduces to himself, the course, and what you can expect t
       - Pre
       - Post
       - In
-  - Hash tables
+  - Heaps
+    - Heap sort
+  - Hash tables - maybe not
+  - Tries
   - Graphs
   - Mazes
     - Path finding
     - Generating
-  - Heaps
-    - Heap sort
-  - Tries
   - Bloom Filters
   - Trade offs
     - Optimizing for insertion vs read vs space

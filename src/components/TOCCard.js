@@ -29,19 +29,21 @@ const LessonCard = ({ content, title }) => {
 
   return (
     <div className="main-card">
-      <h1 className="lesson-title gradient">{title}</h1>
+      <h1 className="lesson-title">{title}</h1>
       <div className="lesson-content">
         <ol className="sections-name">
           {sections.map(section => (
             <li key={section[0].section}>
-              <h3 className="lesson-section-title">{section[0].section}</h3>
-              <ol>
-                {section.map(lesson => (
-                  <li key={lesson.path}>
-                    <Link to={lesson.path}>{lesson.title}</Link>
-                  </li>
-                ))}
-              </ol>
+              <div class="lesson-details">
+                <h3 className="lesson-section-title">{section[0].section}</h3>
+                <ol>
+                  {section.map(lesson => (
+                    <li key={lesson.path}>
+                      <Link to={lesson.path}>{lesson.title}</Link>
+                    </li>
+                  ))}
+                </ol>
+              </div>
             </li>
           ))}
         </ol>

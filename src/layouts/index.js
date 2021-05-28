@@ -67,7 +67,7 @@ const TemplateWrapper = props => {
                 {}
               ]}
             />
-            <div className="navbar navbar-light gradient">
+            <div className="navbar dotted-bg">
               <Link to="/" className="navbar-brand">
                 <h1>{data.site.siteMetadata.title}</h1>
               </Link>

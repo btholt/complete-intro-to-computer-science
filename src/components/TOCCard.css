@@ -1,10 +1,7 @@
 .main-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 100%;
-  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
   overflow: hidden;
-  background-color: white;
 }
 
 .lesson-title {
@@ -18,9 +15,44 @@
 }
 
 .sections-name {
-  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.lesson-section-title {
-  margin-top: 25px;
+ol.sections-name {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ol.sections-name > li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+ol.sections-name > li::before {
+  content: counter(my-awesome-counter);
+  color: #1E3F57;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  background: #93ACA7;
+  font-size: 30px;
+  padding: 30px;
+}
+ol.sections-name .lesson-details {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 30px;
+  background: white;
+  min-width: 600px;
 }

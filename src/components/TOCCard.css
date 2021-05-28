@@ -22,18 +22,21 @@ ol.sections-name {
   counter-reset: my-awesome-counter;
   list-style: none;
   padding-left: 40px;
-  width: 100%;
+  width: 98%;
   margin: 0;
   padding: 0;
 }
+
 ol.sections-name > li {
   counter-increment: my-awesome-counter;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 ol.sections-name > li::before {
   content: counter(my-awesome-counter);
@@ -44,14 +47,65 @@ ol.sections-name > li::before {
   flex: 1;
   background: #93ACA7;
   font-size: 30px;
-  padding: 30px;
+  padding: 25px;
 }
 ol.sections-name .lesson-details {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  padding: 30px;
+  padding: 25px 35px 35px;
   background: white;
   min-width: 600px;
+}
+
+@media (min-width: 1000px) {
+  ol.sections-name > li::before {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  ol.sections-name .lesson-details {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+.lesson-details h3 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.lesson-links {
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+
+.lesson-links a {
+  border-radius: 10px;
+  background: #224159;
+  color: white;
+  padding: 15px 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lesson-links a.prev {
+  padding-left: 10px;
+}
+
+.lesson-links a.next {
+  padding-right: 10px;
+}
+
+.lesson-links a:hover {
+  background: #152837;
+  text-decoration: none;
+}
+
+.lesson-links .arrow {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 0px 5px;
 }

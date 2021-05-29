@@ -32,7 +32,7 @@ const IndexPage = () => (
         }
       }
     `}
-    render={props => (
+    render={(props) => (
       <div className="index">
         <div className="jumbotron">
           <div className="courseInfo">
@@ -43,7 +43,7 @@ const IndexPage = () => (
               </div>
               <div className="info">
                 <div className="name">Brian Holt</div>
-                <div className="company">Stripe</div>
+                <div className="company">Microsoft</div>
               </div>
             </div>
           </div>

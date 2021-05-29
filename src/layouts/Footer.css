@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  padding: 50px 15px;
+  background-color: #d29964;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.social img:hover {
+  opacity: 0.4;
+}
+
+.social img {
+  transition: opacity 0.25s;
+  width: 30px;
+}
+
+.terms {
+  font-size: 10px;
+}
+
+.terms p {
+  margin: 3px;
+}

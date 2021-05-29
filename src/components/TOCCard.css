@@ -1,10 +1,7 @@
 .main-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 100%;
-  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
   overflow: hidden;
-  background-color: white;
 }
 
 .lesson-title {
@@ -13,14 +10,118 @@
 }
 
 .lesson-content {
-  padding: 0 15px 15px 15px;
   line-height: 1.5;
 }
 
 .sections-name {
-  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.lesson-section-title {
-  margin-top: 25px;
+ol.sections-name {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+  width: 98%;
+  margin: 0;
+  padding: 0;
+}
+
+ol.sections-name > li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+  width: 100%;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+ol.sections-name > li::before {
+  content: counter(my-awesome-counter);
+  color: #1e3f57;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  background: #93aca7;
+  font-size: 30px;
+  padding: 25px;
+}
+ol.sections-name .lesson-details {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 25px 35px 35px;
+  background: white;
+  min-width: 600px;
+  position: relative;
+}
+
+.details-bg {
+  background-image: url(../../static/corner-image-inactive.svg);
+  width: 15%;
+  height: 0;
+  padding-bottom: 15%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.lesson-details:hover .details-bg {
+  background-image: url(../../static/corner-image-active.svg);
+}
+
+@media (min-width: 1000px) {
+  ol.sections-name > li::before {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  ol.sections-name .lesson-details {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+.lesson-details h3 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.lesson-links {
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+
+.lesson-links a {
+  border-radius: 10px;
+  background: #224159;
+  color: white;
+  padding: 15px 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lesson-links a.prev {
+  padding-left: 10px;
+}
+
+.lesson-links a.next {
+  padding-right: 10px;
+}
+
+.lesson-links a:hover {
+  background: #152837;
+  text-decoration: none;
+}
+
+.lesson-links .arrow {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 0px 5px;
 }

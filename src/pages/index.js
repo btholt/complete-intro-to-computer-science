@@ -32,11 +32,24 @@ const IndexPage = () => (
         }
       }
     `}
-    render={props => (
+    render={(props) => (
       <div className="index">
-        <div className="jumbotron gradient">
-          <h1>{props.site.siteMetadata.title}</h1>
-          <h2>{props.site.siteMetadata.subtitle}</h2>
+        <div className="jumbotron">
+          <div className="courseInfo">
+            <h1>{props.site.siteMetadata.title}</h1>
+            <div className="author">
+              <div className="image">
+                <img className="image" src="author.jpg" />
+              </div>
+              <div className="info">
+                <div className="name">Brian Holt</div>
+                <div className="company">Microsoft</div>
+              </div>
+            </div>
+          </div>
+          <div className="courseIcon">
+            <img src="algorithms.png" />
+          </div>
         </div>
 
         <Card

@@ -19,13 +19,15 @@ export default function Template(props) {
   const prevLink =
     index > 0 ? (
       <Link className="prev" to={sections[index - 1].path}>
-        {"← " + sections[index - 1].title}
+        <span class='arrow'>←</span>
+        {" " + sections[index - 1].title}
       </Link>
     ) : null;
   const nextLink =
     index < sections.length - 1 ? (
       <Link className="next" to={sections[index + 1].path}>
-        {sections[index + 1].title + " →"}
+        {sections[index + 1].title + " "}
+        <span class='arrow'>→</span>
       </Link>
     ) : null;
   return (

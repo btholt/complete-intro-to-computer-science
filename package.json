@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Brian Holt <btholt+csv2@gmail.com>",
   "dependencies": {
+    "@fontsource/open-sans": "^4.4.0",
     "bootstrap": "^4.6.0",
     "code-mirror-themes": "^1.0.0",
     "front-matter": "^4.0.2",

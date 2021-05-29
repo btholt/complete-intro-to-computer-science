@@ -1,15 +1,6 @@
 body {
-  background-color: #eee;
-}
-
-.index {
-  width: 97%;
-  max-width: 750px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.index .jumbotron {
+  background: linear-gradient(90deg, white 15px, transparent 1%) center, linear-gradient(white 15px, transparent 1%) center, #224159;
+  background-size: 16px 16px;
 }
 
 .example-table {

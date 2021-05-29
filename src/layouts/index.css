@@ -1,3 +1,16 @@
+body {
+  font-family: "Open Sans";
+}
+
+.main-card {
+}
+
+.dotted-bg {
+  background: linear-gradient(90deg, white 15px, transparent 1%) center,
+    linear-gradient(white 15px, transparent 1%) center, #224159;
+  background-size: 16px 16px;
+}
+
 .gradient {
   background: rgb(96, 108, 136);
   background: linear-gradient(
@@ -16,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .navbar h1 {
@@ -23,6 +37,7 @@
   margin: inherit;
   padding: inherit;
   font-weight: bold;
+  color: #224159;
 }
 
 .navbar h2 {
@@ -33,36 +48,148 @@
   color: white;
 }
 
-.jumbotron.gradient {
-  color: white;
-  text-transform: uppercase;
+.jumbotron {
+  padding: 0;
+}
+
+.jumbotron .courseInfo,
+.jumbotron .courseIcon {
+  padding: 20px;
+}
+
+.jumbotron .courseIcon {
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .jumbotron {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .jumbotron .courseInfo,
+  .jumbotron .courseIcon {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  .jumbotron .courseInfo {
+    padding: 6em 15%;
+  }
+  .jumbotron .courseIcon {
+    padding: 6em 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.jumbotron h1,
+.jumbotron h2 {
+  color: #224159;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.jumbotron .courseInfo {
+  background: #d29964;
+}
+
+.jumbotron .courseIcon {
+  background: #93aca7;
+}
+
+.jumbotron .courseIcon img {
+  max-width: 180px;
+}
+
+.author {
+  display: flex;
+}
+
+.author .info {
+  padding: 10px;
+}
+
+.author .name {
+  font-size: 18px;
   font-weight: bold;
+}
+
+.author .company {
+  font-size: 16px;
+}
+
+.author .image {
+  border-radius: 75px;
+  overflow: hidden;
+  height: 75px;
+  width: 75px;
 }
 
 .navbar-brand.navbar-brand {
   text-transform: uppercase;
-  color: white;
   font-weight: bold;
+  color: black;
 }
 
 .navbar-brand.navbar-brand:hover {
-  color: #777;
+  color: #d29964;
 }
 
 .navbar-brand.navbar-brand:focus {
-  color: white;
+  color: #93aca7;
+}
+
+.lesson-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 40px;
 }
 
 .lesson {
   margin: 15px;
   padding: 15px;
-  background-color: #fff;
   border-radius: 8px;
   overflow: scroll;
 }
 
+.lesson > h1 {
+  color: #dfa067;
+  font-size: 24px;
+}
+
+.lesson h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.lesson h2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 5px;
+  background: #dfa067;
+  max-width: 300px;
+}
+
 .lesson p {
   clear: both;
+}
+
+.lesson p,
+.lesson li {
+  line-height: 180%;
 }
 
 .lesson-links {
@@ -79,7 +206,6 @@
 }
 
 .lesson-title {
-  color: white;
   text-transform: uppercase;
   font-weight: bold;
 }

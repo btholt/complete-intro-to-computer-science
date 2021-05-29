@@ -8,12 +8,13 @@ import "prismjs/themes/prism-solarizedlight.css";
 import "code-mirror-themes/themes/monokai.css";
 import "./index.css";
 
-// import jpg from "../../static/posterframe.jpg";
+import Footer from "./Footer";
+import jpg from "../../static/posterframe.jpg";
 
-const TemplateWrapper = props => {
+const TemplateWrapper = (props) => {
   return (
     <StaticQuery
-      render={data => {
+      render={(data) => {
         const frontmatter =
           props.data && props.data.markdownRemark
             ? props.data.markdownRemark.frontmatter
@@ -32,42 +33,42 @@ const TemplateWrapper = props => {
                   name: "og:title",
                   content: frontmatter
                     ? `${frontmatter.title} – ${frontmatter.section} – ${data.site.siteMetadata.title}`
-                    : data.site.siteMetadata.title
+                    : data.site.siteMetadata.title,
                 },
                 {
                   name: "description",
                   content: frontmatter
                     ? frontmatter.description
-                    : data.site.siteMetadata.description
+                    : data.site.siteMetadata.description,
                 },
                 {
                   name: "og:description",
                   content: frontmatter
                     ? frontmatter.description
-                    : data.site.siteMetadata.description
+                    : data.site.siteMetadata.description,
                 },
                 {
                   name: "twitter:card",
-                  content: "summary_large_image"
+                  content: "summary_large_image",
                 },
-                // {
-                //   name: "og:image",
-                //   content: "https://btholt.github.io" + jpg
-                // },
-                // {
-                //   name: "og:url",
-                //   content:
-                //     "https://btholt.github.io/complete-intro-to-containers" +
-                //     (frontmatter && frontmatter.path ? frontmatter.path : "")
-                // },
+                {
+                  name: "og:image",
+                  content: "https://btholt.github.io" + jpg,
+                },
+                {
+                  name: "og:url",
+                  content:
+                    "https://btholt.github.io/complete-intro-to-algorithms" +
+                    (frontmatter && frontmatter.path ? frontmatter.path : ""),
+                },
                 {
                   name: "keywords",
-                  content: data.site.siteMetadata.keywords.join(", ")
+                  content: data.site.siteMetadata.keywords.join(", "),
                 },
-                {}
+                {},
               ]}
             />
-            <div className="navbar navbar-light gradient">
+            <div className="navbar">
               <Link to="/" className="navbar-brand">
                 <h1>{data.site.siteMetadata.title}</h1>
               </Link>
@@ -76,6 +77,7 @@ const TemplateWrapper = props => {
               )}
             </div>
             <div className="main">{props.children}</div>
+            <Footer />
           </div>
         );
       }}

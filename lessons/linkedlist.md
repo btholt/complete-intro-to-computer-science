@@ -6,7 +6,7 @@ section: "Lists"
 description: ""
 ---
 
-<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-algorithms/linkedlist-480.webm" type="video/webm"></video>
+<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-computer-science/linkedlist-480.webm" type="video/webm"></video>
 
 <sup>VisuAlgo <https://visualgo.net> – You may need to open this in Firefox, Chrome, or Edge to see the video above</sup>
 

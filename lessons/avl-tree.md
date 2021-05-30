@@ -15,7 +15,7 @@ So what's the benefit of all this extra effort? We can now guarantee that we won
 
 ## Single Rotation
 
-<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-algorithms/avl-single-480.webm" type="video/webm"></video>
+<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-computer-science/avl-single-480.webm" type="video/webm"></video>
 
 <sup>VisuAlgo <https://visualgo.net> – You may need to open this in Firefox, Chrome, or Edge to see the video above</sup>
 
@@ -61,7 +61,7 @@ This was a right rotation, but a left rotation is mirror of this. This generaliz
 
 ## Double Rotations
 
-<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-algorithms/avl-double-480.webm" type="video/webm"></video>
+<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-computer-science/avl-double-480.webm" type="video/webm"></video>
 
 <sup>VisuAlgo <https://visualgo.net> – You may need to open this in Firefox, Chrome, or Edge to see the video above</sup>
 

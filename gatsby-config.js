@@ -13,7 +13,7 @@ module.exports = {
       "node.js",
     ],
   },
-  pathPrefix: "/complete-intro-to-algorithms",
+  pathPrefix: "/complete-intro-to-computer-science",
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,

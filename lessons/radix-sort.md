@@ -7,7 +7,7 @@ description: "Brian introduces another way of sorting that doesn't involve direc
 icon: "sort-amount-up-alt"
 ---
 
-<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-algorithms/radix-sort-480.webm" type="video/webm"></video>
+<video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-computer-science/radix-sort-480.webm" type="video/webm"></video>
 
 <sup>VisuAlgo <https://visualgo.net> – You may need to open this in Firefox, Chrome, or Edge to see the video above</sup>
 

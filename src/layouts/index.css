@@ -57,32 +57,45 @@ body {
   padding: 20px;
 }
 
+.jumbotron .courseInfo,
 .jumbotron .courseIcon {
   text-align: center;
+}
+
+.author {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1000px) {
   .jumbotron {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
+    min-height: 45vh;
   }
   .jumbotron .courseInfo,
   .jumbotron .courseIcon {
     display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
   }
   .jumbotron .courseInfo {
-    padding: 6em 15%;
+    width: 65%;
+    text-align: right;
   }
   .jumbotron .courseIcon {
-    padding: 6em 7%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .author {
+    justify-content: flex-end;
+  }
+  .jumbotron .courseInfo-inner {
+    max-width: 85%;
   }
 }
 
@@ -106,10 +119,6 @@ body {
 
 .jumbotron .courseIcon img {
   max-width: 180px;
-}
-
-.author {
-  display: flex;
 }
 
 .author .info {

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Complete Intro to Algorithms",
-    subtitle: "by Brian Holt",
+    title: "Complete Intro to Computer Science",
+    subtitle: "Data Structures and Algorithms",
     description: "Come learn the basics to computer science with Brian Holt",
     keywords: [
       "computer science",

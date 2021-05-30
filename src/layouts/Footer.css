@@ -2,11 +2,18 @@
   width: 100%;
   padding: 50px 15px;
   background-color: #d29964;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socials {
   display: flex;
   align-items: center;
+  max-width: 900px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .social {

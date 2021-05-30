@@ -1,7 +1,7 @@
 ---
 path: "/breadth-first-tree-traversals"
 title: "Breadth-First Tree Traversals"
-order: "8E"
+order: "8D"
 section: "Trees"
 description: ""
 ---

@@ -50,7 +50,7 @@ In inorder traversal, you first recursively call the method on the left tree, th
 
 Postorder traversal, as you have guessed, you recursively call the method on the left subtree, then the left subtree, then you process the node. The results of these are as follows:
 
-```
+```text
 // preorder
 [8, 3, 1, 6, 4, 7, 10, 14, 13]
 

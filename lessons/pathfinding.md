@@ -8,7 +8,7 @@ description: ""
 
 Let's take what we've learned and go a step further. Imagine you have a 6 by 6 grid. You have point A at [1,1] and point B at [2,6]. ([0, 0] is top left.)
 
-```
+```text
 • • • • • •
 • A • • • •
 • • • • • •
@@ -19,7 +19,7 @@ Let's take what we've learned and go a step further. Imagine you have a 6 by 6 g
 
 How would you write code that finds the _shortest_ path between A and B (no diagonals.) You could probably write some variant of looking to see if yA (the y of the A coordinate) is less than yB (y of the B coordinate). If it is, move one square from yA to yB. Rinse and repeat for the x axis. This works and given the current constraint will find you one of the shortest paths. It'd look something like:
 
-```
+```text
 • • • • • •
 • A • • • •
 • 1 • • • •
@@ -30,7 +30,7 @@ How would you write code that finds the _shortest_ path between A and B (no diag
 
 Now let's add a wall to the mix.
 
-```
+```text
 • • • • • •
 • A • • • •
 • • • • • •
@@ -43,7 +43,7 @@ Suddenly our algorithm falls apart. You could probably devise some strategy to m
 
 The basic gist of Dijkstra's algorithm is that we'll start at both the beginning and the end node and begin "spiraling" outwards, marking each node with how far away it is from from its original Node. We'll alternate spiraling one level with one node, and then one level with the other. After one iteration of the point A (doesn't matter if you start with the A or B) it'd look like:
 
-```
+```text
 • 1 • • • •
 1 A 1 • • •
 • 1 • • • •
@@ -54,7 +54,7 @@ The basic gist of Dijkstra's algorithm is that we'll start at both the beginning
 
 Then we'd do the same to point B which would like this:
 
-```
+```text
 • 1 • • • •
 1 A 1 • • •
 • 1 • • • •
@@ -65,7 +65,7 @@ Then we'd do the same to point B which would like this:
 
 We'll do this until we intersect the two spirals. As soon as the spiral intersect we know we've found the shortest possible path. Let's keep going with point A:
 
-```
+```text
 2 1 2 • • •
 1 A 1 2 • •
 2 1 2 • • •
@@ -78,7 +78,7 @@ Notice this algorithm accounts for obstacles: if there's an obstacle, you just s
 
 Now point B:
 
-```
+```text
 2 1 2 • • •
 1 A 1 2 • •
 2 1 2 • • •
@@ -89,7 +89,7 @@ Now point B:
 
 You get the point, we alternate. So let's do the next steps for both point A and B.
 
-```
+```text
 2 1 2 3 • •
 1 A 1 2 3 •
 2 1 2 3 • •
@@ -102,7 +102,7 @@ You can see they've intersected but our algorithm hasn't made that connection ye
 
 So, given this as the basic gist, let's speak about the more technical details. The way to accomplish is _very_ similar to what we just did with tree traversals. In fact it's literally the same algorithm applied a different way. Let's take point A and reimagine it as a tree.
 
-```
+```text
         A [1,1]
      /  /     \   \
 [1,0] [0,1] [1,2] [2,1]

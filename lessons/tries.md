@@ -14,7 +14,7 @@ So let's examine what looks like. A trie starts with a root node that doesn't re
 
 Why is this useful? If a user types `bo` in the text input, you can go through your data structure, find the `o` node in that chain, and then all you have to do is a depth-first traversal of the children nodes to for a list of autocomplete suggestions.
 
-```
+```text
   a – [various children]
  /
 b – o – s – t – o – n

@@ -4,6 +4,7 @@ title: "Binary Search"
 order: "6A"
 section: "Binary Search"
 description: "Sometimes you don't need to sort the whole array, you just need to find one element. Brian introduces one of the most effective ways of finding an element in array: binary search"
+icon: "search"
 ---
 
 Search is the act of looking for a particular element in an array. This ends up being really similar to sorting, just instead of doing a whole array, we're just looking for one element in an array.

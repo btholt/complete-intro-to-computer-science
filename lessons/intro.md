@@ -4,6 +4,7 @@ title: "Introduction"
 order: "1A"
 section: "Welcome"
 description: "Brian introduces to himself, the course, and what you can expect to learn in the next few hours"
+icon: "info-circle"
 ---
 
 # Sections

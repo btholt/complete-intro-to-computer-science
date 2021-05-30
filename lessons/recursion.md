@@ -4,6 +4,7 @@ title: "Recursion"
 order: "4A"
 section: "Recursive Sorts"
 description: "Brian defines recursion as something that recurses. In this section Brian teaches what recursion is and some places you might use it."
+icon: "sitemap"
 ---
 
 What do you do if you have a large, difficult-to-solve problem? You break it down into multiple smaller problems and see if you can solve those. Are those problems still too big? Break those down into smaller problems, and so-on-and-so-forth until you arrive at a problem you can solve.

@@ -4,6 +4,7 @@ title: "Bubble Sort"
 order: "3A"
 section: "Iterative Sorts"
 description: "Starting from basics, Brian teaches how to sort items in a list using the classic simple sorting algorithm, the bubble sort."
+icon: "redo"
 ---
 
 ![bubble sort](./images/bubblesort.gif)

@@ -1,7 +1,7 @@
 ---
 path: "/linkedlist"
 title: "LinkedList"
-order: "7A"
+order: "7B"
 section: "Lists"
 description: ""
 ---

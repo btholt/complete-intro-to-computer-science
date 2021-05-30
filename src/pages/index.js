@@ -26,6 +26,7 @@ const IndexPage = () => (
                 title
                 section
                 description
+                icon
               }
             }
           }

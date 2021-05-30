@@ -4,6 +4,7 @@ title: "Graphs"
 order: "9A"
 section: "Applying Tree Algorithms"
 description: ""
+icon: "map-signs"
 ---
 
 Let's chat about a datastructure that is extremely useful, you probably interact with many on a daily basis, but you may not use them in your code on a day-to-day: graphs. Graphs are all about modeling relations between many items. For example, think of Facebook's Social Graph. I'm friends with you and you're friends with me. But you're also friends with six hundred other people which is about five hundred fifty too many. Those people in turn also have too friends. But many of my friends are your friends, so the connections aren't linear, they're … well, they're graph-like.

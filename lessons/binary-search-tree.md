@@ -4,6 +4,7 @@ title: "Binary Search Tree"
 order: "8A"
 section: "Trees"
 description: ""
+icon: "tree"
 ---
 
 Trees are another way to structure data. They work differently that arrays so we won't be looking at the exact same thing but they have their own uses. Arrays can have arbitrary data in arbitrary order. An array of `[1, 5, 2, 7, 3]` is totally fine: it doesn't have to be in a sorted order. The kind of trees we're going to be looking at today are all ordered by value, so whenever you insert a new value, it will be inserted in a sorted fashion e.g. if we add 5 to `[1, 4, 6, 7]` it _must_ be inserted between the 4 and the 6.

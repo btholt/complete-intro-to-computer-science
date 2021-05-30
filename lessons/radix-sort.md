@@ -4,6 +4,7 @@ title: "Radix Sort"
 order: "5A"
 section: "Non-Comparison Sorts"
 description: "Brian introduces another way of sorting that doesn't involve direct comparisons: radix sorting."
+icon: "sort-amount-up-alt"
 ---
 
 <video controls autoplay loop><source src="https://btholt.github.io/complete-intro-to-algorithms/radix-sort-480.webm" type="video/webm"></video>

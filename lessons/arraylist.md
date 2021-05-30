@@ -4,6 +4,7 @@ title: "ArrayList"
 order: "7A"
 section: "Lists"
 description: ""
+icon: "list-alt"
 ---
 
 Let's shift into the second half our course: data structures. We're going to start with how arrays are handled. Up to this point we've just been talking about how to sort items in a list but how are the things actually stored in a list? Well, as you guessed, it depends. You'll choose which one you need contextually.

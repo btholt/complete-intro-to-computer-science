@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import * as helpers from "../util/helpers";
 import "./TOCCard.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 const sortFn = helpers.sorter;
 
@@ -35,14 +36,23 @@ const LessonCard = ({ content, title }) => {
           {sections.map((section) => (
             <li key={section[0].section}>
               <div class="lesson-details">
-                <h3 className="lesson-section-title">{section[0].section}</h3>
-                <ol>
-                  {section.map((lesson) => (
-                    <li key={lesson.path}>
-                      <Link to={lesson.path}>{lesson.title}</Link>
-                    </li>
-                  ))}
-                </ol>
+                <div className="lesson-preface">
+                  <i
+                    className={`fas fa-${
+                      section[0].icon ? section[0].icon : "dumpster-fire"
+                    }`}
+                  ></i>
+                </div>
+                <div className="lesson-text">
+                  <h3 className="lesson-section-title">{section[0].section}</h3>
+                  <ol>
+                    {section.map((lesson) => (
+                      <li key={lesson.path}>
+                        <Link to={lesson.path}>{lesson.title}</Link>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
                 <div className="details-bg" />
               </div>
             </li>

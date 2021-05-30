@@ -13,6 +13,12 @@
   line-height: 1.5;
 }
 
+.lesson-text {
+  width: 100%;
+  padding: 25px 5px 25px 35px;
+  min-height: 200px;
+}
+
 .sections-name {
   margin: 0;
   padding: 0;
@@ -38,23 +44,38 @@ ol.sections-name > li {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
-ol.sections-name > li::before {
-  content: counter(my-awesome-counter);
+ol.sections-name .lesson-preface {
+  /* content: counter(my-awesome-counter); */
   color: #1e3f57;
   display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  position: relative;
+  align-items: center;
+  justify-content: center;
   background: #93aca7;
   font-size: 30px;
   padding: 25px;
+  width: 30%;
 }
+
+.lesson-preface .fas {
+  font-size: 60px;
+}
+
+ol.sections-name .lesson-preface::before {
+  content: counter(my-awesome-counter);
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3f57;
+}
+
 ol.sections-name .lesson-details {
   display: flex;
-  flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  padding: 25px 35px 35px;
+  /* padding: 25px 35px 35px; */
   background: white;
   min-width: 600px;
   position: relative;
@@ -62,10 +83,11 @@ ol.sections-name .lesson-details {
 
 .details-bg {
   background-image: url(../../static/corner-image-inactive.svg);
-  width: 15%;
+  width: 10%;
   height: 0;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
   background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   right: 0;
@@ -88,7 +110,11 @@ ol.sections-name .lesson-details {
 
 .lesson-details h3 {
   font-size: 22px;
+  border-bottom: 1px solid #333;
   padding-bottom: 10px;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .lesson-links {

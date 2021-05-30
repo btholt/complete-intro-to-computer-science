@@ -4,6 +4,7 @@ title: "Big O"
 order: "2A"
 section: "Algorithm Analysis"
 description: "Brian goes over how to measure how efficient an algorithm and the tools we have to measure it"
+icon: "flask"
 ---
 
 Big O is the way we analyze how efficient algorithms (or code in this case) without getting too mired in the details. We can model how much time any function is going to take given n inputs (think an array of length `n`), but in reality we're interested in the order of magnitude of the number and not necessarily of the exact figure.

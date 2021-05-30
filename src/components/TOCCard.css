@@ -93,7 +93,8 @@ ol.sections-name .lesson-details {
   right: 0;
 }
 
-.lesson-details:hover .details-bg {
+.lesson-details:hover .details-bg,
+.lesson-container .details-bg {
   background-image: url(../../static/corner-image-active.svg);
 }
 

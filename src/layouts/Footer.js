@@ -28,7 +28,10 @@ export default function Footer() {
           <div className="terms">
             <p>Content Licensed Under CC-BY-NC-4.0</p>
             <p>Code Samples and Excercise Licensed Under Apache 2.0</p>
-            <p>Brian Holt</p>
+            <p>
+              Site Designed by{" "}
+              <a href="https://www.alexdanielson.com/">Alex Danielson</a>
+            </p>
           </div>
         </li>
       </ul>

@@ -67,7 +67,7 @@ function getMiddleOfArray(array) {
 
 This would be O(1) because no matter how long array is, this still takes the same amount of time to do.
 
-For some people, it's helpful to use a graph visualize what we're talking about here
+For some people, it's helpful to use a graph to visualize what we're talking about here
 
 ![graph of y = 1, y = x + 1, and y = x^2 + 1](./images/graph.png)
 

@@ -20,7 +20,7 @@ A recursive function is a function that calls itself
 ```javascript
 function countTo(max, current, list) {
   if (current > max) return;
-  console.log(max);
+  console.log(current);
   countTo(max, current + 1);
 }
 

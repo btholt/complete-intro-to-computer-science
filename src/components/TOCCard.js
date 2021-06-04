@@ -35,7 +35,7 @@ const LessonCard = ({ content, title }) => {
         <ol className="sections-name">
           {sections.map((section) => (
             <li key={section[0].section}>
-              <div class="lesson-details">
+              <div className="lesson-details">
                 <div className="lesson-preface">
                   <i
                     className={`fas fa-${

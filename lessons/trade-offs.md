@@ -6,7 +6,7 @@ section: "Algorithm Analysis"
 description: "Brian goes over why we use Big O and the art of making trade offs"
 ---
 
-Besides being useful in interviews, why do we even talk about Big O? It's not because you're actually going to sitting there, write the Big O for every function in your code. You probably won't even think too frequently about Big O at all.
+Besides being useful in interviews, why do we even talk about Big O? It's not because you're actually going to sit there, write the Big O for every function in your code. You probably won't even think too frequently about Big O at all.
 
 ## The Mindset
 
@@ -14,7 +14,7 @@ It's actually the mindset that you're gaining that's actually the useful part. "
 
 Really though, it's the additional function in my brain that as I'm writing code is thinking about "can this be done better".
 
-Let's talk about "better" for a second. The temptation after learning about these concepts is to try to optimize every piece of code that you come across. "How can this have the loweset Big O?" is the wrong question to ask. Let's go over some guiding principles.
+Let's talk about "better" for a second. The temptation after learning about these concepts is to try to optimize every piece of code that you come across. "How can this have the lowest Big O?" is the wrong question to ask. Let's go over some guiding principles.
 
 - There are no rules. "Always do _blank_". Everything has context. These are just tools and loose decision-making frameworks for you to use to make a contextually good choice.
 - There are frequently multiple good choices and almost never a perfect, "right" choice.
@@ -24,4 +24,4 @@ Let's talk about "better" for a second. The temptation after learning about thes
 - Taking the above into account, err on the side of simple code. Simple code is easier to maintain because you can understand it easier and typically ends up having less bugs.
 - Human time is almost always more valuable than computer time.
 - Normally it's a good idea to not prematurely optimize code. As a general principle, I try to _have_ a perf problem before I try to solve it. Premature optimization will cause you a lot of problems. Frequently you're not solving the right problem and you're left when harder-to-deal-with code.
-- 99% of the time you want to use the built-in features to a language or an existing module to do these sorts of heavy lifting. Rarely are you going to write your own sort, you'll just call `.sort()`. Usually your implementation won't be faster because the built-ins can do tricks you can't (like run it in C/Rust) and they tend to have far less bugs because so many people use them.
+- 99% of the time you want to use the built-in features of a language or an existing module to do these sorts of heavy lifting. Rarely are you going to write your own sort, you'll just call `.sort()`. Usually your implementation won't be faster because the built-ins can do tricks you can't (like run it in C/Rust) and they tend to have far less bugs because so many people use them.

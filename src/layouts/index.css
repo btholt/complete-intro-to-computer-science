@@ -169,7 +169,7 @@ body {
   margin: 15px;
   padding: 15px;
   border-radius: 8px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .lesson > h1 {

@@ -7,7 +7,7 @@ description: ""
 icon: "tree"
 ---
 
-Trees are another way to structure data. They work differently that arrays so we won't be looking at the exact same thing but they have their own uses. Arrays can have arbitrary data in arbitrary order. An array of `[1, 5, 2, 7, 3]` is totally fine: it doesn't have to be in a sorted order. The kind of trees we're going to be looking at today are all ordered by value, so whenever you insert a new value, it will be inserted in a sorted fashion e.g. if we add 5 to `[1, 4, 6, 7]` it _must_ be inserted between the 4 and the 6.
+Trees are another way to structure data. They work differently than arrays so we won't be looking at the exact same thing but they have their own uses. Arrays can have arbitrary data in arbitrary order. An array of `[1, 5, 2, 7, 3]` is totally fine: it doesn't have to be in a sorted order. The kind of trees we're going to be looking at today are all ordered by value, so whenever you insert a new value, it will be inserted in a sorted fashion e.g. if we add 5 to `[1, 4, 6, 7]` it _must_ be inserted between the 4 and the 6.
 
 There are _many_ varieties of tree data structures. We'll be looking at two of them today, binary search trees and AVL trees, but there are so many more. They're used everywhere due to their fast access patterns, even across enormous data sets.
 
@@ -21,11 +21,11 @@ So we have one node that is the root. That node can have a left child and a righ
 
 <sup>Public domain, via Wikimedia Commons</sup>
 
-If the any of the above rules are violated, then your tree isn't a binary search tree. All of them use be followed 100% of the time. Because of this you can make assumptions about it which it makes really fast to use in certain scenarios. We'll talk about that in a bit.
+If any of the above rules are violated, then your tree isn't a binary search tree. All of them use be followed 100% of the time. Because of this you can make assumptions about it which it makes really fast to use in certain scenarios. We'll talk about that in a bit.
 
 ## Look Ups
 
-Let's talk about about how to do a look up. Say you have the above tree and you want to find 4.
+Let's talk about how to do a look up. Say you have the above tree and you want to find 4.
 
 ```text
 -> .find is called with 4
@@ -35,7 +35,7 @@ Let's talk about about how to do a look up. Say you have the above tree and you 
 -> node 4, found result
 ```
 
-This is the whole algorithm for look ups. Go left or right depending if it's smaller or bigger (respectively) and then you'll find it. What's the Big O here? In this case, we're not hopefully not looking at _every_ item in the tree, just some small sampling of them. The average case here would be O(log n). The best case is that someone asks for the root which be O(1). The worst case if that if you have a poorly made BST where every child is on the left (or right) and you have to look at every item in the array to find it. That would be O(n).
+This is the whole algorithm for look ups. Go left or right depending if it's smaller or bigger (respectively) and then you'll find it. What's the Big O here? In this case, we're not hopefully not looking at _every_ item in the tree, just some small sampling of them. The average case here would be O(log n). The best case is that someone asks for the root which be O(1). The worst case is that if you have a poorly made BST where every child is on the left (or right) and you have to look at every item in the array to find it. That would be O(n).
 
 ## Add
 

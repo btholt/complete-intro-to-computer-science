@@ -65,7 +65,7 @@ A little mind-melting, right? Let's break it down really quick.
 
 Let's break this down call-by-call. Since recursive functions will break down into further recursive calls, all of them eventually eventually end in a base case. In the `fibonacci(5)` call, you can see eventually all of them end up in n either equalling 2 or 1, our base case. So to get our final answer of 5 (which is the correct answer) we end up adding 1 to itself 5 times to get 5. That seems silly, right?
 
-So what if we call `fibonacci(30)`? The answer is 832040. You guessed it, we add 1 to itelf, 832040 times. What if we call `fibonacci(200)`? Chances are you'll get a stack overflow.
+So what if we call `fibonacci(30)`? The answer is 832040. You guessed it, we add 1 to itself, 832040 times. What if we call `fibonacci(200)`? Chances are you'll get a stack overflow.
 
 Not very efficient here, but very elegant code. Here you'd need to trade off having readable code versus a relatively poor performance profile. If your use case says you'll only need to call no more than with n = 10, yeah, this is probably okay. If you need to call it with n = 200, you need to rewrite it to something different.
 

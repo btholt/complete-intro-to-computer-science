@@ -115,7 +115,7 @@ Notice that the 1 in our example never gets compared to the 7 in the array. How?
 
 So let's combine our two terms together. This sort's computational complexity is O(n log n). And that's the best average/worst case for a general purpose sort that we're going to get. This will definitely be significantly faster than the O(n²) we've been seeing so far on larger lists.
 
-What about spatial complexity? Notice we're creating and throwing away a lot of array. This isn't free, and on a large list can be a problem. Merge sort is among the worst because we'll create an array for every item in the array (plus a few more which would just be a coefficent so Big O wouldn't care) so the spatial complexity is O(n).
+What about spatial complexity? Notice we're creating and throwing away a lot of array. This isn't free, and on a large list can be a problem. Merge sort is among the worst because we'll create an array for every item in the array (plus a few more which would just be a coefficient so Big O wouldn't care) so the spatial complexity is O(n).
 
 ## Exercises
 

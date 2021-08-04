@@ -23,7 +23,7 @@ We're going to be talking about binary heaps today but know there are others. A 
 - Similar to the above point, if you do an in-order traversal of a BST, you'll get a sorted list. This does not work in a binary heap.
 - A binary heap is a "complete binary tree." This means it's as compact as possible. All the children of each node are as full as they can be and left children are filled out first. This is not true of a BST: they can be sparse.
 
-Binary heaps come in two falvors: max heaps and min heaps. We'll be dealing with max heaps (which help you find the greatest number in the heap) but you can imagine that if you flip all the comparisons you'd have a min heap (which helps you find the smallest number.)
+Binary heaps come in two flavors: max heaps and min heaps. We'll be dealing with max heaps (which help you find the greatest number in the heap) but you can imagine that if you flip all the comparisons you'd have a min heap (which helps you find the smallest number.)
 
 So this is why a priority queue is often a binary heap: it's very easy to tell the largest number in a binary heap. None of the other is guaranteed, but once you dequeue (or take the next element off) it's easy to find the next item in the queue. In fact, that's how heapsort works: you construct an internal priority queue and then remove an item at a time and stick it at the end and then find the next largest item in the priority queue; rinse and repeat.
 

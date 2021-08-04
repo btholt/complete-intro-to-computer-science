@@ -15,7 +15,7 @@ This is actually a bit of a moot point for JavaScript developers: we have normal
 
 ## ArrayList
 
-Let's pretend for a moment that JavaScript has no array type. No more `const x = []`. We only have one thing: objects. So we'd need to implement the array numbering ourselves. But not just that, we'd have to implment adding numbers, removing numbers, getting numbers, etc. It's a lot of work!
+Let's pretend for a moment that JavaScript has no array type. No more `const x = []`. We only have one thing: objects. So we'd need to implement the array numbering ourselves. But not just that, we'd have to implement adding numbers, removing numbers, getting numbers, etc. It's a lot of work!
 
 I'm borrowing the Java terms for these, by the way.
 

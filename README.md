@@ -7,7 +7,6 @@
 Learn computer science with Brian Holt!
 
 - [See the course website][site]
-- [See it on Frontend Masters]
 
 ## License
 

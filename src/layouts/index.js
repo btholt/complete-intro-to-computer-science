@@ -75,6 +75,10 @@ const TemplateWrapper = (props) => {
               {!frontmatter ? null : (
                 <h2>{`${frontmatter.section} – ${frontmatter.title}`}</h2>
               )}
+              <h2 class="button"><a href="https://frontendmasters.com/courses/computer-science-v2/">
+                <span class="mobile-hidden">Complete Intro to Computer Science</span> Videos
+                <span class="icon">&nbsp;▶️&nbsp;</span></a>
+              </h2>
             </div>
             <div className="main">{props.children}</div>
             <Footer />

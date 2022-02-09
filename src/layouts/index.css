@@ -30,6 +30,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  padding: 10px;
 }
 
 .navbar h1 {
@@ -38,8 +39,6 @@ body {
   padding: inherit;
   font-weight: bold;
   color: #224159;
-
-  padding: 5px 10px;
 }
 
 .navbar h2 {
@@ -47,7 +46,6 @@ body {
   margin: inherit;
   padding: inherit;
   text-transform: uppercase;
-  padding: 5px 10px;
 }
 
 .jumbotron {

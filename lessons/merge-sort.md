@@ -12,7 +12,7 @@ description: "One of the most versatile and useful sorts, merge sorts has wide a
 
 We're going to take our new found super power of recurison and apply it to sorting a list.
 
-So what if we have a big list that's unsorted? Well, what if we break it into two smaller lists and sort those? Okay, great but now we just have the same problem just smaller. Cool, let's break that those each into smaller lists and try again.
+So what if we have a big list that's unsorted? Well, what if we break it into two smaller lists and sort those? Okay, great but now we just have the same problem just smaller. Cool, let's break those each into smaller lists and try again.
 
 Eventually we're going to end up with lists of length 1 or 0. By definition (as I keep saying lol) a list of 1 or 0 is already sorted. Done! Sounds like a base case, doesn't it?
 

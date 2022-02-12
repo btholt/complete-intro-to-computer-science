@@ -27,7 +27,7 @@ function countTo(max, current, list) {
 const counts = countTo(5, 1, []);
 ```
 
-Notice that we call `countTo` inside of `countTo`. This is recursion. However this one isn't super useful as I could have easily use a for loop. However I wanted to show you a very simple case of recursion. Let's then talk about a bit more about when to use a recursive function.
+Notice that we call `countTo` inside of `countTo`. This is recursion. However this one isn't super useful as I could have easily use a for loop. However I wanted to show you a very simple case of recursion. Let's talk about when to use a recursive function.
 
 ## When it's useful
 

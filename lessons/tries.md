@@ -28,7 +28,7 @@ Since some words are contained within chains of others (for example, there are t
 
 There are more complicated things you can do with tries as well that we won't explore here. You can have autocompletes for mid-word completions (if I type "francisco" it won't autocomplete "san francisco" at the moment.) You can add weights to certain edges/children so they're suggested first (so San Francisco comes before San Mateo.) But this exercise, assume all words weighted equally.
 
-You'll also represent a space in the tree as its own node so when you type `san<space>` it autocompletes San Francisco instead of Santa Fe. In other words, no characters are given special treatment. That can be unintuitve.
+You'll also represent a space in the tree as its own node so when you type `san<space>` it autocompletes San Francisco instead of Santa Fe. In other words, no characters are given special treatment. That can be unintuitive.
 
 ## Exercises
 

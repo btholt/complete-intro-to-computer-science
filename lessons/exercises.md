@@ -12,7 +12,7 @@ You have two options on how to do the exercises in this course.
 
 CodeSandbox is an online code editor based on Visual Studio Code and it's a great tool for sharing code. I'm a fan. I will be using this for the duration of the class. It has a great built-in test suite that we'll use.
 
-[![Edit algorithms-exercises](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/upbeat-leftpad-8kdjr?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit algorithms-exercises](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main/?fontsize=14&hidenavigation=1&theme=dark)
 
 Click the above button and it will take you to a ready-to-go CodeSandbox. I will suggest that you sign up for your own create and then fork my CodeSandbox so you can keep a copy of the code you write for yourself.
 

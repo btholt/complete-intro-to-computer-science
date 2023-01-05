@@ -73,4 +73,4 @@ The sort _is_ destructive since we work on the array itself and the sort can be 
 We're going to work on [/specs/insertion-sort/insertion-sort.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/insertion-sort/insertion-sort.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/insertion-sort/insertion-sort.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises?file=/specs/insertion-sort/insertion-sort.test.js

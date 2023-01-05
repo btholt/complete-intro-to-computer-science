@@ -194,4 +194,4 @@ So we'll store the whole database in one data structure and then we'll keep a se
 We're going to work on [/specs/bst/bst.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/bst/bst.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/bst/bst.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises?file=/specs/bst/bst.test.js

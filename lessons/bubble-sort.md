@@ -77,4 +77,4 @@ Is this sorting algorithm **stable**? To be considered a stable sort, the sort m
 We're going to work on [/specs/bubble-sort/bubble-sort.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/bubble-sort/bubble-sort.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/bubble-sort/bubble-sort.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises?file=/specs/bubble-sort/bubble-sort.test.js

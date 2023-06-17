@@ -12,9 +12,9 @@ description: "A more useful tool, insertion sort is a tool that developers will 
 
 Let's talk about a sort that is one that you will use occasionally in certain contexts, insertion sort.
 
-With insertion sort, you treat the first part of your list as sorted and the second part of your list as unsorted. Our algorithm will start by saying everything the 1 index (so just index 0, the first element) is sorted and everything after unsorted. By definition a list of one is already sorted. From there, we start with the next element in the list (in this case, the 1 index, the second element) and loop backwards over our sorted list, asking "is the element that I'm looking to insert larger than what's here? If not, you work your way to the back of the array. If you land at the first element of the sorted part of the list, what you have is smaller than everything else and you put it at the start. You then repeat this until you've done it over the whole list!
+With insertion sort, you treat the first part of your list as sorted and the second part of your list as unsorted. Our algorithm will start by saying everything before index 1 (so just index 0, the first element) is sorted and everything after unsorted. By definition a list of one is already sorted. From there, we start with the next element in the list (in this case, the index 1, the second element) and loop backwards over our sorted list, asking "is the element that I'm looking to insert larger than what's here? If not, you work your way to the back of the array. If you land at the first element of the sorted part of the list, what you have is smaller than everything else and you put it at the start. You then repeat this until you've done it over the whole list!
 
-The mechanism by which we'll do this is that we'll keep moving bigger elements to the right by swapping items in the array as we move across the element. When we come to the place where we're going to insert, we'll stop doing those swaps/
+The mechanism by which we'll do this is that we'll keep moving bigger elements to the right by swapping items in the array as we move across the element. When we come to the place where we're going to insert, we'll stop doing those swaps.
 
 Let's do an example.
 

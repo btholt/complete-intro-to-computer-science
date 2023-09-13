@@ -1,5 +1,5 @@
 ---
-path: "/linkedlist"
+path: "/linkedlist/"
 title: "LinkedList"
 order: "7B"
 section: "Lists"

@@ -1,5 +1,5 @@
 ---
-path: "/avl-tree"
+path: "/avl-tree/"
 title: "AVL Tree"
 order: "8B"
 section: "Trees"

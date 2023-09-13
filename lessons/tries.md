@@ -1,5 +1,5 @@
 ---
-path: "/tries"
+path: "/tries/"
 title: "Tries"
 order: "9C"
 section: "Applying Tree Algorithms"

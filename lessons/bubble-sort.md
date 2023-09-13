@@ -1,5 +1,5 @@
 ---
-path: "/bubble-sort"
+path: "/bubble-sort/"
 title: "Bubble Sort"
 order: "3A"
 section: "Iterative Sorts"

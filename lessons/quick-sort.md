@@ -1,5 +1,5 @@
 ---
-path: "/quick-sort"
+path: "/quick-sort/"
 title: "Quick Sort"
 order: "4C"
 section: "Recursive Sorts"

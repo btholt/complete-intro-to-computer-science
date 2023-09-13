@@ -1,5 +1,5 @@
 ---
-path: "/binary-search"
+path: "/binary-search/"
 title: "Binary Search"
 order: "6A"
 section: "Binary Search"

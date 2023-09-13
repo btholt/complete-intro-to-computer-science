@@ -61,6 +61,10 @@ body {
   text-align: center;
 }
 
+.lesson-links a {
+  text-decoration: none;
+}
+
 blockquote {
   padding: 15px;
   background-color: #dce8ff;

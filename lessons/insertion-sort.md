@@ -1,5 +1,5 @@
 ---
-path: "/insertion-sort"
+path: "/insertion-sort/"
 title: "Insertion Sort"
 order: "3B"
 section: "Iterative Sorts"

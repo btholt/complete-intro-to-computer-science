@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby-link";
 import * as helpers from "../util/helpers";
 import "./TOCCard.css";
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -7,8 +7,6 @@ import "@fortawesome/fontawesome-free/css/all.css";
 const sortFn = helpers.sorter;
 
 const LessonCard = ({ content, title }) => {
-  console.log(sortFn);
-
   const sections = content
     .map((lesson) => lesson.node.frontmatter)
     .sort(sortFn)

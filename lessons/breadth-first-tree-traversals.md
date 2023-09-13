@@ -1,5 +1,5 @@
 ---
-path: "/breadth-first-tree-traversals"
+path: "/breadth-first-tree-traversals/"
 title: "Breadth-First Tree Traversals"
 order: "8D"
 section: "Trees"

@@ -1,5 +1,5 @@
 ---
-path: "/spatial-complexity"
+path: "/spatial-complexity/"
 title: "Spatial Complexity"
 order: "2B"
 section: "Algorithm Analysis"

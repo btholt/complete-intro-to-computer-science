@@ -1,5 +1,5 @@
 ---
-path: "/exercises"
+path: "/exercises/"
 title: "The Exercises"
 order: "1B"
 section: "Welcome"

@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby-link";
 import Helmet from "react-helmet";
 import { graphql, StaticQuery } from "gatsby";
 
@@ -75,9 +75,14 @@ const TemplateWrapper = (props) => {
               {!frontmatter ? null : (
                 <h2>{`${frontmatter.section} – ${frontmatter.title}`}</h2>
               )}
-              <h2 class="button"><a href="https://frontendmasters.com/courses/computer-science-v2/">
-                <span class="mobile-hidden">Complete Intro to Computer Science</span> Videos
-                <span class="icon">&nbsp;▶️&nbsp;</span></a>
+              <h2 className="button">
+                <a href="https://frontendmasters.com/courses/computer-science-v2/">
+                  <span className="mobile-hidden">
+                    Complete Intro to Computer Science
+                  </span>{" "}
+                  Videos
+                  <span className="icon">&nbsp;▶️&nbsp;</span>
+                </a>
               </h2>
             </div>
             <div className="main">{props.children}</div>

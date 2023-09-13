@@ -1,5 +1,5 @@
 ---
-path: "/graphs"
+path: "/graphs/"
 title: "Graphs"
 order: "9A"
 section: "Applying Tree Algorithms"

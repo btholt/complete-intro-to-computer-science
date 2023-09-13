@@ -1,5 +1,5 @@
 ---
-path: "/trade-offs"
+path: "/trade-offs/"
 title: "Trade Offs"
 order: "2C"
 section: "Algorithm Analysis"

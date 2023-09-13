@@ -1,5 +1,5 @@
 ---
-path: "/merge-sort"
+path: "/merge-sort/"
 title: "Merge Sort"
 order: "4B"
 section: "Recursive Sorts"

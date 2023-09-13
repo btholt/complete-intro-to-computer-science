@@ -1,5 +1,5 @@
 ---
-path: "/pathfinding"
+path: "/pathfinding/"
 title: "Pathfinding"
 order: "9B"
 section: "Applying Tree Algorithms"

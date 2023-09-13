@@ -1,5 +1,5 @@
 ---
-path: "/bloom-filters"
+path: "/bloom-filters/"
 title: "Bloom Filters"
 order: "10A"
 section: "Other Data Structures"

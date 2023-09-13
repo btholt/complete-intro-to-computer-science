@@ -1,6 +1,6 @@
 ---
 title: "Heap Sort"
-path: "/heap-sort"
+path: "/heap-sort/"
 order: "8E"
 section: "Trees"
 description: ""

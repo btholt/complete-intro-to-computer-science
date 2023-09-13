@@ -1,5 +1,5 @@
 ---
-path: "/radix-sort"
+path: "/radix-sort/"
 title: "Radix Sort"
 order: "5A"
 section: "Non-Comparison Sorts"

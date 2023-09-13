@@ -1,5 +1,5 @@
 ---
-path: "/arraylist"
+path: "/arraylist/"
 title: "ArrayList"
 order: "7A"
 section: "Lists"

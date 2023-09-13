@@ -1,5 +1,5 @@
 ---
-path: "/recursion"
+path: "/recursion/"
 title: "Recursion"
 order: "4A"
 section: "Recursive Sorts"
@@ -110,5 +110,5 @@ We're going to work on [/specs/recursion/factorials.test.js][factorials-gh]. Go 
 [nested-arrays-gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/recursion/nested-arrays.test.js
 [factorials-gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/recursion/factorials.test.js
 [fibonacci]: https://en.wikipedia.org/wiki/Fibonacci_number
-[nested-arrays]: https://codesandbox.io/s/upbeat-leftpad?file=/specs/recursion/nested-arrays.test.js
-[factorials]: https://codesandbox.io/s/upbeat-leftpad?file=/specs/recursion/recursion.test.js
+[nested-arrays]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/recursion/nested-arrays.test.js
+[factorials]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/recursion/recursion.test.js

@@ -1,5 +1,5 @@
 ---
-path: "/intro"
+path: "/intro/"
 title: "Introduction"
 order: "1A"
 section: "Welcome"

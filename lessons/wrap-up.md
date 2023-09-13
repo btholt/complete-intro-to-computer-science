@@ -1,5 +1,5 @@
 ---
-path: "/wrap-up"
+path: "/wrap-up/"
 title: "Wrap Up"
 order: "11A"
 section: "Conclusion"

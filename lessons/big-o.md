@@ -1,5 +1,5 @@
 ---
-path: "/big-o"
+path: "/big-o/"
 title: "Big O"
 order: "2A"
 section: "Algorithm Analysis"

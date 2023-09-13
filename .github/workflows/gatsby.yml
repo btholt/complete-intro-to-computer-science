@@ -12,9 +12,8 @@ jobs:
       - uses: actions/checkout@master
       - name: npm install, build, and csv
         run: |
-          npm install
+          npm install --force
           npm run build
-          npm run csv
       - name: Deploy site to gh-pages branch
         uses: crazy-max/ghaction-github-pages@v2
         with:

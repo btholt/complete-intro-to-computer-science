@@ -1,5 +1,5 @@
 ---
-path: "/binary-search-tree"
+path: "/binary-search-tree/"
 title: "Binary Search Tree"
 order: "8A"
 section: "Trees"

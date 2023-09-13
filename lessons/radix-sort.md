@@ -30,6 +30,6 @@ What about the spatial complexity? It ends up being O(n + k) and this why radix 
 We're going to work on [/specs/radix-sort/radix-sort.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/radix-sort/radix-sort.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/radix-sort/radix-sort.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/radix-sort/radix-sort.test.js
 [shift]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
 [push]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push

@@ -124,4 +124,4 @@ What about spatial complexity? Notice we're creating and throwing away a lot of 
 We're going to work on [/specs/merge-sort/merge-sort.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/merge-sort/merge-sort.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/merge-sort/merge-sort.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/merge-sort/merge-sort.test.js

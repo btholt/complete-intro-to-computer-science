@@ -44,4 +44,4 @@ There are other variations of LinkedLists as well. One is a doubly LinkedList, w
 We're going to work on [/specs/arrays/linkedlist.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/arrays/linkedlist.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/arrays/linkedlist.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/arrays/linkedlist.test.js

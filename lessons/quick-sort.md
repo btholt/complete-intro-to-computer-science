@@ -60,4 +60,4 @@ In addition to the memory effecient version discussed above, there are other tri
 We're going to work on [/specs/quick-sort/quick-sort.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/quick-sort/quick-sort.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/quick-sort/quick-sort.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/quick-sort/quick-sort.test.js

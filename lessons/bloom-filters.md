@@ -34,7 +34,7 @@ So when you add more items to a bloom filter, you'll increase your false positiv
 We're going to work on [/specs/bloom-filters/bloom-filters.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/bloom-filters/bloom-filters.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/bloom-filters/bloom-filters.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/bloom-filters/bloom-filters.test.js
 [medium]: https://blog.medium.com/what-are-bloom-filters-1ec2a50c68ff
 [wiki]: https://en.wikipedia.org/wiki/Bloom_filter#Examples
 [by-example]: http://llimllib.github.io/bloomfilter-tutorial/

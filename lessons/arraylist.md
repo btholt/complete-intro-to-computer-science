@@ -44,4 +44,4 @@ So when are you going to choose an ArrayList? When you need to do lots of lookup
 We're going to work on [/specs/arrays/arraylist.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/arrays/arraylist.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/arrays/arraylist.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/arrays/arraylist.test.js

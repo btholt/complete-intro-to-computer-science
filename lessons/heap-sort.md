@@ -122,4 +122,4 @@ Hopefully this demonstrates how the it works! Go give it a shot to implement.
 We're going to work on [/specs/heap-sort/heap-sort.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/heap-sort/heap-sort.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/heap-sort/heap-sort.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/heap-sort/heap-sort.test.js

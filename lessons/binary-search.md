@@ -32,4 +32,4 @@ look in the middle of the larger half (which is now just one number), is 12 === 
 We're going to work on [/specs/search/search.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/search/search.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/search/search.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/search/search.test.js

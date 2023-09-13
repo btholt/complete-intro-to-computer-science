@@ -63,5 +63,5 @@ There are whole databases that just deal with graphs! In one of my other courses
 We're going to work on [/specs/graph/graph.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/graph/graph.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/graph/graph.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/graph/graph.test.js
 [dbs]: https://frontendmasters.com/courses/databases/

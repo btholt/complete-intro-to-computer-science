@@ -123,6 +123,6 @@ If you want to see how this works using a visualizer, [check this out][visual].
 We're going to work on [/specs/pathfinding/pathfinding.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/pathfinding/pathfinding.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/pathfinding/pathfinding.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/pathfinding/pathfinding.test.js
 [visual]: https://qiao.github.io/PathFinding.js/visual/
 [so-bfs-vs-d]: https://stackoverflow.com/questions/25449781/what-is-difference-between-bfs-and-dijkstras-algorithms-when-looking-for-shorte

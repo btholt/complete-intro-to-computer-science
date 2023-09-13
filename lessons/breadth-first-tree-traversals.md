@@ -46,4 +46,4 @@ Breadth-first traversals are useful for many things and we'll be using the algor
 We're going to work on [/specs/traversals/breadth-first.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/traversals/breadth-first.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/traversals/breadth-first.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/traversals/breadth-first.test.js

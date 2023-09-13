@@ -37,4 +37,4 @@ You'll also represent a space in the tree as its own node so when you type `san<
 We're going to work on [/specs/tries/tries.test.js][gh]. Go give that a shot.
 
 [gh]: https://github.com/btholt/algorithms-exercises/blob/main/specs/tries/tries.test.js
-[sb]: https://codesandbox.io/s/algorithms-exercises-8kdjr?file=/specs/tries/tries.test.js
+[sb]: https://codesandbox.io/s/github/btholt/algorithms-exercises/tree/main?file=/specs/tries/tries.test.js

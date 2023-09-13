@@ -55,7 +55,7 @@ Postorder traversal, as you have guessed, you recursively call the method on the
 [8, 3, 1, 6, 4, 7, 10, 14, 13]
 
 // inorder
-[1, 3, 5, 6, 7, 8, 10, 13, 14]
+[1, 3, 4, 6, 7, 8, 10, 13, 14]
 
 // postorder
 [1, 4, 7, 6, 3, 13, 14, 10, 8]

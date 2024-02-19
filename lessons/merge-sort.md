@@ -74,7 +74,7 @@ mergeSort([3]) -- depth 3
 merge([2], [3]) -- depth 3
 Is 2 or 4 smaller? 2. Add to end. [2]
 Left array is empty, concat right array. [2, 3]
-Return sorted array [2, 4]
+Return sorted array [2, 3]
 
 mergeSort([6]) -- depth 2
 [6] is of length one. Base case. Return sorted list [6]

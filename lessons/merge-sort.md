@@ -18,7 +18,7 @@ Eventually we're going to end up with lists of length 1 or 0. By definition (as 
 
 Okay, so now we have two sorted lists. What if we merged them back together in a way that we're sorting as we go. We'll take those two smaller sorted lists and combine them back into one larger sorted list. And then we'll do that with the bigger lists until we've merged them all back into one sorted list.
 
-So we need two functions. One is the first function to break down the big lists into smaller lists (the recursive function) and the other is a function that takes two **sorted** (I bold because this function should assume that these two lists it receives are always sorted already) and returns back one sorted function. The first function is recursive and the second is not.
+So we need two functions. One is the first function to break down the big lists into smaller lists (the recursive function) and the other is a function that takes two **sorted** (I bold because this function should assume that these two lists it receives are always sorted already) and returns back one sorted list. The first function is recursive and the second is not.
 
 Let's do an example. Recursion is a bit hard to diagram but stick with me. We'll do it in the order it would be evaluated. I'm using the `//` to show you that everything after the `//` isn't being called now but we'll come back to when recursion on the left side of the call finishes. I'm using the `-- depth <number>` to show you we are `<number>` calls deep in the call stack.
 

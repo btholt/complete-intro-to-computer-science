@@ -72,9 +72,9 @@ mergeSort([3]) -- depth 3
 [3] is of length one. Base case. Return sorted list [3]
 
 merge([2], [3]) -- depth 3
-Is 2 or 4 smaller? 2. Add to end. [2]
+Is 2 or 3 smaller? 2. Add to end. [2]
 Left array is empty, concat right array. [2, 3]
-Return sorted array [2, 4]
+Return sorted array [2, 3]
 
 mergeSort([6]) -- depth 2
 [6] is of length one. Base case. Return sorted list [6]
@@ -109,7 +109,7 @@ Here's another visual representation of it.
 
 This is always a fun one to discuss. Let's talk about _worst_ case scenario here. Well, every case is the worst case scenario. And the best. And the average. No matter what, the array always gets broken down into lists of 1 and then built back up. Notice that `mergeSort([2, 3, 6])` was already sorted but it didn't matter. So for merge sort all three of best, worst, and average case computational complexity the answer will be the same.
 
-Let's about the Big O then. Every item in the array will be looked at least once. So that means that we're going to be at least O(n). Then we need to compare those items to other items in the array. But how many times? Does it diminish as the list gets longer or not? It turns out it does diminish.
+Let's talk about the Big O then. Every item in the array will be looked at least once. So that means that we're going to be at least O(n). Then we need to compare those items to other items in the array. But how many times? Does it diminish as the list gets longer or not? It turns out it does diminish.
 
 Notice that the 1 in our example never gets compared to the 7 in the array. How? Well, when the array breaks down into smaller pieces, the 7 gets put in a group with 4. The 1 does get compared at one point to the 4 and gets sorted before the 4. We, by virtue of knowing that everything after 4 in that list larger than 4, don't need to compare 1 to each of those numbers. We get to take a short cut. So, as our array grows larger and larger, we get to take more and more shortcuts. This the hallmark of a `log n` sort of behavior: the larger the list gets, we get diminishing amounts of more things to do.
 

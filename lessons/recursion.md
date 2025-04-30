@@ -67,6 +67,20 @@ Let's break this down call-by-call. Since recursive functions will break down in
 
 So what if we call `fibonacci(30)`? The answer is 832040. You guessed it, we add 1 to itelf, 832040 times. What if we call `fibonacci(200)`? Chances are you'll get a stack overflow.
 
+To optimize our recursive solution, we can use *memoization*. This technique stores already computed values, reducing the need to recalculate them and thus improving performance. Here's how a memoized version of the `fibonacci` function looks:
+
+```javascript
+function fibonacci(n, memo = {}) {
+  if (memo[n]) return memo[n];
+
+  if (n === 1 || n === 2) return 1;
+  if (n <= 0) return 0;
+
+  memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
+  return memo[n];
+}
+```
+
 Not very efficient here, but very elegant code. Here you'd need to trade off having readable code versus a relatively poor performance profile. If your use case says you'll only need to call no more than with n = 10, yeah, this is probably okay. If you need to call it with n = 200, you need to rewrite it to something different.
 
 Here's the iterative solution:

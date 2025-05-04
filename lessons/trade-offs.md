@@ -14,7 +14,7 @@ It's actually the mindset that you're gaining that's actually the useful part. "
 
 Really though, it's the additional function in my brain that as I'm writing code is thinking about "can this be done better".
 
-Let's talk about "better" for a second. The temptation after learning about these concepts is to try to optimize every piece of code that you come across. "How can this have the loweset Big O?" is the wrong question to ask. Let's go over some guiding principles.
+Let's talk about "better" for a second. The temptation after learning about these concepts is to try to optimize every piece of code that you come across. "How can this have the lowest Big O?" is the wrong question to ask. Let's go over some guiding principles.
 
 - There are no rules. "Always do _blank_". Everything has context. These are just tools and loose decision-making frameworks for you to use to make a contextually good choice.
 - There are frequently multiple good choices and almost never a perfect, "right" choice.

@@ -48,14 +48,14 @@ In preorder traversal, you process the node, then recursively call the method on
 
 In inorder traversal, you first recursively call the method on the left tree, then process the node, and then call the method on the right tree.
 
-Postorder traversal, as you have guessed, you recursively call the method on the left subtree, then the left subtree, then you process the node. The results of these are as follows:
+Postorder traversal, as you have guessed, you recursively call the method on the left subtree, then the right subtree, then you process the node. The results of these are as follows:
 
 ```text
 // preorder
 [8, 3, 1, 6, 4, 7, 10, 14, 13]
 
 // inorder
-[1, 3, 5, 6, 7, 8, 10, 13, 14]
+[1, 3, 4, 6, 7, 8, 10, 13, 14]
 
 // postorder
 [1, 4, 7, 6, 3, 13, 14, 10, 8]

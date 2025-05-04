@@ -87,7 +87,7 @@ Notice the purple line we added. Now as we add more terms to the array, it takes
 
 This sort of analysis is useful for taking a high level view. It's a useful tool for deciding if your designed implementation is going to much the performance profile that you need.
 
-A good example would be if we were designing a comment system for a site and it had a sorting and filtering ability. If this is for a school and there would only ever be a few comments at a time, we probably don't need to do too much Big O analysis because it's such a small set of people that a computer can overcome just about any computational inefficiency we have. In this case I'd value human time over computer time and just go with the simplest solution and not worry about the Big O unless performance because a problem later.
+A good example would be if we were designing a comment system for a site and it had a sorting and filtering ability. If this is for a school and there would only ever be a few comments at a time, we probably don't need to do too much Big O analysis because it's such a small set of people that a computer can overcome just about any computational inefficiency we have. In this case I'd value human time over computer time and just go with the simplest solution and not worry about the Big O unless performance cause a problem later.
 
 Okay, now, if we're designing a comment system but it's for Reddit.com, our needs change _dramatically_. We're now talking about pipelines of millions of users making billions of comments. Our performance targets need to change to address such volume. A O(n²) alogrithm would crash the site.
 

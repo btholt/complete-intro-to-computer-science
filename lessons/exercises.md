@@ -30,7 +30,7 @@ We can also do it the good ol' fashioned way: fork the repo on GitHub (so you ca
 
 [Click here to get to head to my repo][gh]. Be sure to fork and then clone.
 
-Once you've clone it locally, run `npm install` then run `npm run test`. This will run all the files in your repo with `*.test.js` extensions. If you run `npm run test:watch` it will run Jest in its interactive mode, would definitely suggest trying that. It's fun.
+Once you've cloned it locally, run `npm install` then run `npm run test`. This will run all the files in your repo with `*.test.js` extensions. If you run `npm run test:watch` it will run Jest in its interactive mode, would definitely suggest trying that. It's fun.
 
 ## The Code!
 

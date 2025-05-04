@@ -18,13 +18,13 @@ In English, a recursive definition is when you try to define a word using the wo
 A recursive function is a function that calls itself
 
 ```javascript
-function countTo(max, current, list) {
+function countTo(max, current) {
   if (current > max) return;
   console.log(current);
   countTo(max, current + 1);
 }
 
-const counts = countTo(5, 1, []);
+const counts = countTo(5, 1);
 ```
 
 Notice that we call `countTo` inside of `countTo`. This is recursion. However this one isn't super useful as I could have easily use a for loop. However I wanted to show you a very simple case of recursion. Let's then talk about a bit more about when to use a recursive function.

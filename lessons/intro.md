@@ -15,7 +15,7 @@ Welcome! Hello! This is the Complete Intro to Computer Science. I'm so excited t
 
 For you!
 
-This course is for all levels of programmers who want to understand for the first time some of these algorithms and data structures or want more practice with them. This class for non-CS grads and CS grads alike.
+This course is for all levels of programmers who want to understand for the first time some of these algorithms and data structures or want more practice with them. This class is for non-CS grads and CS grads alike.
 
 This class expects familiarity with JavaScript and with programming. If you are looking for your first coding class, [try the Frontend Masters Boot Camp!][bootcamp]
 
@@ -23,7 +23,7 @@ This class expects familiarity with JavaScript and with programming. If you are 
 
 ![Brian drinking a beer](./images/brian-beer.jpg)
 
-My name is Brian Holt and I am a principal program manager at Microsoft. I attended a few years of a computer science program in Utah before dropping out of college to pursue a career in coding. A lot of these concepts I learned in college or during my high school classes and for years I didn't really value what they meant to me. As I got into working at larger companies these concepts started surfacing more and more. It was then that I started to realize that not only did they concepts help you in whiteboarding interviews (they do) but they also teach you a way of thinking that's super valuable. Hopefully I can help you learn to love these methods of structured thinking and logic.
+My name is Brian Holt and I am a principal program manager at Microsoft. I attended a few years of a computer science program in Utah before dropping out of college to pursue a career in coding. A lot of these concepts I learned in college or during my high school classes and for years I didn't really value what they meant to me. As I got into working at larger companies these concepts started surfacing more and more. It was then that I started to realize that not only did these concepts help you in whiteboarding interviews (they do) but they also teach you a way of thinking that's super valuable. Hopefully I can help you learn to love these methods of structured thinking and logic.
 
 ![Brian speaking at conference](./images/brian.jpg)
 
@@ -31,7 +31,7 @@ When I'm not working at Microsoft or working on Frontend Masters content I try t
 
 ![Luna, havanese dog](./images/lunasit.jpg)
 
-Lastly, while I have your attention, just wanted to call some attention to my favorite charitable organizations. Spare a dollar for these fine people if you have one to give.
+Lastly, while I have your attention, I just wanted to call some attention to my favorite charitable organizations. Spare a dollar for these fine people if you have one to give.
 
 - [AnnieCannons][ac]
 - [The Last Mile][tlm]

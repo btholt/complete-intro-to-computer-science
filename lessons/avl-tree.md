@@ -41,7 +41,7 @@ So let's go through the hardest part of AVL trees, the rebalances (actually dele
 -> check balance of node A: left height is 0, right height is 2
 unbalanced, right heavy, child is right heavy
 
--> perform right rotation
+-> perform a left rotation
 -> swap the values of nodes A and B
 -> make node B the left child of node A
 -> make node C the right child of node A
@@ -57,7 +57,7 @@ unbalanced, right heavy, child is right heavy
 node B   node C
 ```
 
-This was a right rotation, but a left rotation is mirror of this. This generalized formula works for all but one case which we'll examine now.
+This was a left rotation, but a right rotation is mirror of this. This generalized formula works for all but one case which we'll examine now.
 
 ## Double Rotations
 
@@ -108,7 +108,7 @@ That's a problem, right? So now we have to what's called a double rotation. You 
 [ ... previous steps ]
 -> check balance of node A: left height is 0, right height is 2
 unbalanced - right heavy, child is left heavy
--> perform left rotation on left heavy right child node B
+-> perform right rotation on left heavy right child node B
 
 5 - node A
  \
@@ -116,7 +116,7 @@ unbalanced - right heavy, child is left heavy
    \
     8 - node C
 
--> now perform right rotation on node A
+-> now perform left rotation on node A
 
       7 - node A
     /   \
